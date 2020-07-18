@@ -17,11 +17,12 @@ def flipper(s:str) -> str:
 def main():
     '''
     Accept the input sentence, 
-    print the sentence with same word order, but each word has reversed character order.
+    print and return the sentence with same word order, but each word has reversed character order.
     '''
     s = input("Please type in the sentence...")
     r = flipper(s)
     print(r)
+    return r
 
 if __name__ == "__main__":
     main()
